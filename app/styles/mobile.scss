@@ -47,6 +47,7 @@
 
 /*IPAD PORTRAIT/IPHONE LANDSCAPE*/
 @media all and (max-width: 950) and (min-width: 601) {
+	
 
 	body {
 	}
@@ -172,7 +173,7 @@
 	}
 
 	#contacts {
-		height: 85px;
+		height: 130px;
 
 	}
 		#phone {
@@ -181,6 +182,11 @@
 			left: 0;
 		}
 		#mail {
+			background-color: #eeeeee;
+			margin-left: 5;
+			left: 0;
+		}
+		#git {
 			background-color: #eeeeee;
 			margin-left: 5;
 			left: 0;
@@ -197,6 +203,9 @@
 /*IPHONE PORTRAIT*/
 @media all and (max-width:600) and (min-width: 401) {
 
+	#git {
+		display: none;
+	}
 
 	#buildA {
 		width: 100px;
@@ -520,23 +529,11 @@
 
 
 @media all and (max-width:510) {
+
+	#git {
+		display: none;
+	}
 	
-	body {
-		z-index: -2;
-	}
-	#mobilebar {
-		width: 100%;
-		height: 70px;
-		background: #eeeeee;
-		position: fixed;
-		top: 0;
-		z-index: -1;
-
-	}
-	#rafi {
-		z-index: 3;
-	}
-
 	nav {
 		height: 100px;
 		width: 100%;
@@ -917,16 +914,10 @@
 		}
 
 		#copyright {
-			overflow-x: hidden;
-			display: block;
-			position: relative;
-			margin: auto;
+			margin: 0;
+			margin-left: 5px;
 			left: 0;
-			width: 200px;
-			text-align: center;
-			bottom: 0;
 			color: #000000;
-
 		}
 
 }
