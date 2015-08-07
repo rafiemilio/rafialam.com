@@ -520,6 +520,22 @@
 
 
 @media all and (max-width:510) {
+	
+	body {
+		z-index: -2;
+	}
+	#mobilebar {
+		width: 100%;
+		height: 70px;
+		background: #eeeeee;
+		position: fixed;
+		top: 0;
+		z-index: -1;
+
+	}
+	#rafi {
+		z-index: 3;
+	}
 
 	nav {
 		height: 100px;
