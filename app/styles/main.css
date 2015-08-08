@@ -1,0 +1,1819 @@
+body {
+	background-color: #ffffff;
+	font-family: Garamond, serif;
+	color: #6c6c6c;
+	z-index: 1;
+	margin: 0;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h1 {
+	font-size: 40px;
+	margin: 0;
+	/*letter-spacing: 2px;*/
+}
+
+
+h2 {
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+h4 {
+	font-size: 12px;
+}
+h5 {
+	margin-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: teal;
+}
+
+#mobilebar {
+	display: none;
+	width: 100%;
+	height: 70px;
+	background: #eeeeee;
+	position: fixed;
+	top: 0;
+}
+#mobileRafi {
+	width: 300px;
+	height: 70px;
+	margin: auto;
+
+	background: url(/images/rafi.svg);
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+#expand {
+	transition: all, .2s;
+}
+
+#expand:hover {
+	font-size: 24px;
+}
+
+#bio {
+	margin-left: 350px;
+	padding-top: 30px;
+	max-width: 500px;
+	text-align: center;
+}
+
+#photo {
+	transition: all, .5s;
+	margin: 20 auto;
+	height: 100px;
+	width: 100px;
+	background-image: url(/images/picture.jpg);
+	background-size: 100px;
+	border-radius: 50%;
+	border: 2px solid black;
+	
+}
+
+#photo:hover {
+
+	width: 200px;
+	height: 200px;
+	background-size: 200px;
+	left: 350px;
+	top: 20px;
+
+}
+
+#video {
+	border: 2px solid black;
+	width: 500px;
+	height: 280px;
+}
+#process {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+
+
+.img {display: inline-block;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 5%;
+}
+
+.img img {
+	height: 100%;
+}
+
+
+
+#buildA {
+	background: #eeeeee;
+	border-radius: 5%;
+	height: 120px;
+	width: 120px;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#buildA p {
+	font-size: 12px;
+}
+
+#buildA:hover {
+	background: #dddddd;
+}
+
+#buildB {
+	background: #eeeeee;
+	border-radius: 5%;
+	height: 120px;
+	width: 120px;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+}
+#buildB p {
+	font-size: 12px;
+}
+#buildB:hover {
+	background: #dddddd;
+}
+
+#buildC {
+	background: #eeeeee;
+	border-radius: 5%;
+	height: 120px;
+	width: 120px;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+}
+#buildC p {
+	font-size: 12px;
+}
+#buildC:hover {
+	background: #dddddd;
+}
+
+
+#info {
+	margin-left: 350px;
+	padding-top: 30px;
+	max-width: 500px;
+	text-align: center;
+}
+
+#info p {
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+#video {
+
+	margin-top: 20px;
+}
+
+nav {
+	background: #eeeeee;
+	height: 2048px;
+	position: relative;
+}
+
+nav a {
+	transition: all, .5s;
+	/*height: 50px;*/
+	width: 100px;
+	background-color: #dddddd;
+	border-radius: 0;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+	position: relative;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #6c6c6c;
+	font-family: Futura, sans-serif;
+	clear: both;
+}
+
+nav a:hover {
+	background-color: #a9a9a9;
+	padding-bottom: 85px;
+	color: #222222;
+}
+
+
+
+#l {
+	width: 265px;
+	border-radius: 5px;
+}
+
+#xl {
+	width: 555px;
+	border-radius: 5px;
+}
+
+#statement {
+	width:700px;
+	text-align: center;
+	margin: auto;
+	margin-left: 350px;
+}
+
+.container {
+	width: 600px;
+	margin: auto;
+	margin-left: 350px;
+	text-align: center;
+}
+.constrain {
+	width: 500px;
+	margin: auto;
+}
+
+
+.favorites {
+	width: 120px;
+	background-color: #a9a9a9;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+}
+
+.favorites:hover {
+	background-color: #000000;
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#nav {
+	text-align: center;
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	margin-left: 0;
+}
+
+
+#rafi {
+	width: 300px;
+	text-align: center;
+	margin: auto;
+	font-family: Futura, sans-serif;
+	font-size: 90px;
+	letter-spacing: 1px;
+	display: none;
+}
+
+#title {
+	width: 600px;
+	text-align: center;
+	margin: auto;
+	margin-left: 350px;
+	font-family: Futura, sans-serif;
+	font-size: 80px;
+	letter-spacing: 0px;
+	display: none;
+}
+
+
+.bg {
+	margin: 0;
+	position: fixed;
+	bottom: -30px;
+	right: 0px;
+	color: rgba(100,100,100,.2);
+	font-family: Futura, sans-serif;
+	font-weight: bold;
+	letter-spacing: -5px;
+	font-size: 100px;
+	z-index: 0;
+	display: none;
+
+}
+
+.bg2 {
+	margin: 0;
+	position: fixed;
+	bottom: -30px;
+	right: 0px;
+	color: rgba(100,100,100,.2);
+	font-family: Futura, sans-serif;
+	font-weight: bold;
+	letter-spacing: -5px;
+	font-size: 100px;
+	z-index: 0;
+	display: none;
+
+}
+
+
+
+#contacts {
+	position: fixed;
+	margin: auto;
+	width: 300px;
+	height: 150px;
+	bottom: 0px;
+	left: 0;
+
+}
+
+#git {
+	transition: all, .3s;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 0;
+	width: 250px;
+	height: 30px;
+	background: white;
+	border-radius: 50px;
+	text-align: left;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+	#git:hover {
+		background-color: #9a9a9a;
+	}
+	#gitIcon {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		padding: 0;
+		background: url(/images/git.svg);
+		background-size: 100%;
+		border-radius: 50%;
+	}
+		#git h1 {
+			display: inline-block;
+			margin: auto;
+			padding: 0;
+			height: 40px;
+			color: #000000;
+			vertical-align: middle;
+			font-size: 13px;
+			font-family: Futura, sans-serif;
+			font-weight: normal;
+			text-decoration: none;
+
+
+		}
+
+#phone {
+	transition: all, .3s;
+	display: block;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 250px;
+	height: 30px;
+	background: white;
+	border-radius: 50px;
+	text-align: left;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+	#phone:hover {
+		background-color: #9a9a9a;
+	}
+	#phoneIcon {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		padding: 0;
+		background: url(/images/phone.svg);
+		background-size: 100%;
+		border-radius: 50%;
+	}
+		#phone h1 {
+			display: inline-block;
+			margin: auto;
+			padding: 0;
+			height: 40px;
+			color: #000000;
+			vertical-align: middle;
+			font-size: 13px;
+			font-family: Futura, sans-serif;
+			font-weight: normal;
+			text-decoration: none;
+
+
+		}
+#mail {
+	transition: all, .3s;
+	display: block;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 250px;
+	height: 30px;
+	background: white;
+	border-radius: 50px;
+	text-align: left;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+	#mail:hover {
+		background-color: #9a9a9a;
+	}
+	#mailIcon {
+		display: inline-block;
+		margin: 0;
+		width: 30px;
+		height: 30px;
+		padding: 0;
+		background: url(/images/mail.svg);
+		background-size: 100%;
+		border-radius: 50%;
+	}
+		#mail h1 {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			height: 40px;
+			color: #000000;
+			vertical-align: middle;
+			font-size: 13px;
+			font-family: Futura, sans-serif;
+			font-weight: normal;
+			text-decoration: none;
+
+
+		}
+
+/*TABTITLE*/
+
+#digitalTitle {
+	width: 300px;
+	height: 80px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+
+	background: url(/images/digital.svg);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+#analogTitle {
+	width: 370px;
+	height: 80px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+
+	background: url(/images/analog.svg);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+/*TITLES*/
+
+
+#rafiTitle {
+	width: 300px;
+	height: 120px;
+	margin: auto;
+
+	background: url(/images/rafi.svg);
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+#gamesTitle {
+	width: 600px;
+	height: 100px;
+	margin: auto;
+	margin-left: 350px;
+
+	background: url(/images/games.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#videosTitle {
+	width: 600px;
+	height: 100px;
+	margin: auto;
+	margin-left: 350px;
+
+	background: url(/images/videos.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#appsTitle {
+	width: 600px;
+	height: 100px;
+	margin: auto;
+	margin-left: 350px;
+
+	background: url(/images/apps.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#photosTitle {
+	width: 600px;
+	height: 100px;
+	margin: auto;
+	margin-left: 350px;
+
+	background: url(/images/photos.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#sketchTitle {
+	width: 600px;
+	height: 100px;
+	margin: auto;
+	margin-left: 350px;
+
+	background: url(/images/sketch.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#charcoalTitle {
+	width: 600px;
+	height: 100px;
+	margin: auto;
+	margin-left: 350px;
+
+	background: url(/images/charcoal.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#paintTitle {
+	width: 600px;
+	height: 100px;
+	margin: auto;
+	margin-left: 350px;
+
+	background: url(/images/paint.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+#about {
+	width: 225px;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+
+}
+
+
+
+#statement {
+	margin: 0;
+	padding-top: 20px;
+	margin-left: 350px;
+	width: 350px;
+	font-family: Futura, sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}
+
+header {
+	position: fixed;
+	padding: 0;
+	margin: 0;
+	width: 0;
+	background: #eeeeee;
+}
+
+
+
+
+
+/*GAMES*/
+
+.breach {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/games/breach.jpg);
+	background-position: center;
+}
+
+.breach:hover {
+	background-image: url(/images/games/breach.gif);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.meteoros {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/games/meteoros.jpg);
+	background-position: bottom left;
+}
+
+.meteoros:hover {
+	background-image: url(/images/games/meteoros.gif);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.doodle {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/games/doodleland.jpg);
+	background-size: 110%;
+	background-position: bottom;
+}
+
+.doodle:hover {
+	background-image: url(/images/games/doodleland.gif);
+	color: #000000;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.babychief {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/games/babychief.jpg);
+	background-size: 100%;
+	background-position: top;
+}
+
+.babychief:hover {
+	background-image: url(/images/games/babychief.gif);
+	color: #000000;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.kin {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/games/kin.jpg);
+	background-size: 100%;
+	background-position: top;
+}
+
+.kin:hover {
+	background-image: url(/images/games/kin.gif);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.romanroad {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/games/romanroad.jpg);
+	background-size: 105%;
+	background-position: top;
+}
+
+.romanroad:hover {
+	background-image: url(/images/games/romanroad.gif);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.buildnstein {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/games/buildnstein.jpg);
+	background-size: 150%;
+	background-position: center;
+}
+
+.buildnstein:hover {
+	background-image: url(/images/games/buildnstein.gif);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.textura {
+	width: 120px;
+	background-color: #a9a9a9;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/games/supersonic.jpg);
+	background-size: 150%;
+	background-position: center;
+}
+
+
+.textura:hover {
+	background-image: url(/images/games/supersonic.gif);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.allcity {
+	width: 120px;
+	background-color: #a9a9a9;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/games/allcity.jpg);
+	background-size: 100%;
+	background-position: center;
+
+}
+
+.allcity:hover {
+	background-image: url(/images/games/allcity.gif);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.glitch {
+	width: 120px;
+	background-color: #a9a9a9;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/games/glitch.jpg);
+	background-size: 150%;
+	background-position: center;
+}
+
+.glitch:hover {
+	background-image: url(/images/games/glitch.gif);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+/*VIDEOS*/
+
+.revolution {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/video/revolution.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+
+.revolution:hover {
+	background-image: url(/images/video/revolution.gif);
+	color: #000000;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.paper {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/video/paperdilemma.jpg);
+	background-size: 110%;
+	background-position: right;
+}
+
+.paper:hover {
+	background-image: url(/images/video/paperdilemma.gif);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.acoustic {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/video/acoustic.jpg);
+	background-size: 200%;
+	background-position: 40% bottom; 
+}
+
+.acoustic:hover {
+	background-image: url(/images/video/acoustic.gif);
+	color: #000000;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.veils {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/video/veilsofsleep.jpg);
+	background-size: 120%;
+	background-position: center; 
+}
+
+.veils:hover {
+	background-image: url(/images/video/veilsofsleep.gif);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.who {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/video/wwtw.jpg);
+	background-size: 120%;
+	background-position: center; 
+}
+
+.who:hover {
+	background-image: url(/images/video/wwtw.gif);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+/*APPS*/
+
+.stack {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/app/stackshare.jpg);
+	background-size: 100%;
+	background-position: center 50%;
+}
+
+.stack:hover {
+	background-image: url(/images/app/stackshare.gif);
+	color: #000000;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.matryo {
+	width: 120px;
+	background-color: #a9a9a9;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+}
+
+.matryo:hover {
+	background-color: #000000;
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.sak {
+	width: 120px;
+	background-color: #a9a9a9;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+}
+
+.sak:hover {
+	background-color: #000000;
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.blackdeath {
+	width: 120px;
+	background-color: #a9a9a9;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+}
+
+.blackdeath:hover {
+	background-color: #000000;
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.aggag {
+	width: 120px;
+	background-color: #a9a9a9;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+}
+
+.aggag:hover {
+	background-color: #000000;
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+/*PHOTOS*/
+
+.photo1 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-1.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+
+.photo1:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-1.jpg);
+    background-size: 100%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo2 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-2.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+
+.photo2:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-2.jpg);
+    background-size: 100%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo3 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-3.jpg);
+	background-size: 130%;
+	background-position: center;
+}
+
+.photo3:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-3.jpg);
+    background-size: 130%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo4 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-4.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+
+.photo4:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-4.jpg);
+    background-size: 100%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo5 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-5.jpg);
+	background-size: 130%;
+	background-position: center;
+}
+
+.photo5:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-5.jpg);
+    background-size: 130%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+
+.photo6 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-6.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+
+.photo6:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-6.jpg);
+    background-size: 100%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo7 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-7.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+
+.photo7:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-7.jpg);
+    background-size: 100%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo8 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-8.jpg);
+	background-size: 130%;
+	background-position: center;
+}
+
+.photo8:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-8.jpg);
+    background-size: 130%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo9 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-9.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+
+.photo9:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-9.jpg);
+    background-size: 100%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo10 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-10.jpg);
+	background-size: 130%;
+	background-position: center;
+}
+
+.photo10:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-10.jpg);
+    background-size: 130%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo11 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-11.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+
+.photo11:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-11.jpg);
+    background-size: 100%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo12 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-12.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+
+.photo12:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-12.jpg);
+    background-size: 100%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo13 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-13.jpg);
+	background-size: 130%;
+	background-position: center;
+}
+
+.photo13:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-13.jpg);
+    background-size: 130%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo14 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-14.jpg);
+	background-size: 100%;
+	background-position: center;
+}
+
+.photo14:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-14.jpg);
+    background-size: 100%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.photo15 {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(/images/photos/felony-15.jpg);
+	background-size: 130%;
+	background-position: center;
+}
+
+.photo15:hover {
+	background:  linear-gradient(
+      rgba(0,0,0, 0.45), 
+      rgba(0,0,0, 0.45)
+    ), url(/images/photos/felony-15.jpg);
+    background-size: 130%;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+#copyright {
+	margin: 5;
+	position: fixed;
+	bottom: 0;
+	left: 55px;
+	font-family: Futura, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+}

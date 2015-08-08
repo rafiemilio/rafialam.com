@@ -1,0 +1,926 @@
+@charset "utf-8";
+
+/*IPAD LANDSCAPE*/
+@media all and (max-width: 1024) and (min-width: 951) {
+	
+	.breach {
+		background-image: url(/images/games/breach.jpg);
+	}
+	.meteoros {
+		background-image: url(/images/games/meteoros.jpg);
+	}
+	.doodle {
+		background-image: url(/images/games/doodleland.jpg);
+	}
+	.babychief {
+		background-image: url(/images/games/babychief.jpg);
+	}
+	.buildnstein {
+		background-image: url(/images/games/buildnstein.jpg);
+	}
+	.kin {
+		background-image: url(/images/games/kin.jpg);
+	}
+	.romanroad {
+		background-image: url(/images/games/romanroad.jpg);
+	}
+
+
+
+	.revolution {
+		background-image: url(/images/video/revolution.jpg);
+	}
+	.paper {
+		background-image: url(/images/video/paperdilemma.jpg);
+	}
+	.acoustic {
+		background-image: url(/images/video/acoustic.jpg);
+	}
+	.who {
+		background-image: url(/images/video/wwtw.jpg);
+	}
+	.veils {
+		background-image: url(/images/video/veilsofsleep.jpg);
+	}
+
+}
+
+/*IPAD PORTRAIT/IPHONE LANDSCAPE*/
+@media all and (max-width: 950) and (min-width: 601) {
+	
+
+	body {
+	}
+
+	nav {
+		height: 100px;
+		width: 100%;
+	}
+	nav a, nav a:hover {
+		padding-bottom: 10px;
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+	#bio {
+	margin-left: 30px;
+	}
+	#photo {
+	}
+	#info {
+		margin-left: auto;
+		margin: 0 auto;
+	}
+	#about {
+		padding-left: 170px;
+		padding-right: 170px;
+	}
+
+	#nav {
+		width: 100%;
+	}
+
+	header {
+		position: relative;
+		padding-bottom: 20px;
+	}
+
+	.container {
+		width: 600px;
+		margin: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	#photo, #photo:hover {
+		position: fixed;
+		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+		top: 10;
+		left: 10;
+		width: 100px;
+		height: 100px;
+		background-size: 100px;
+		display: none;
+	}
+
+	#title {
+		margin-left: auto;
+	}
+	#gamesTitle {
+		margin-left: auto;
+	}
+	#videosTitle {
+		margin-left: auto;
+	}
+	#appsTitle {
+		margin-left: auto;
+	}
+	#photosTitle {
+		margin-left: auto;
+	}
+	#sketchTitle {
+		margin-left: auto;
+	}
+	#charcoalTitle {
+		margin-left: auto;
+	}
+	#paintTitle {
+		margin-left: auto;
+	}
+
+
+
+	.breach {
+		background-image: url(/images/games/breach.jpg);
+	}
+	.meteoros {
+		background-image: url(/images/games/meteoros.jpg);
+	}
+	.doodle {
+		background-image: url(/images/games/doodleland.jpg);
+	}
+	.babychief {
+		background-image: url(/images/games/babychief.jpg);
+	}
+	.buildnstein {
+		background-image: url(/images/games/buildnstein.jpg);
+	}
+	.kin {
+		background-image: url(/images/games/kin.jpg);
+	}
+	.romanroad {
+		background-image: url(/images/games/romanroad.jpg);
+	}
+
+
+
+	.revolution {
+		background-image: url(/images/video/revolution.jpg);
+	}
+	.paper {
+		background-image: url(/images/video/paperdilemma.jpg);
+	}
+	.acoustic {
+		background-image: url(/images/video/acoustic.jpg);
+	}
+	.who {
+		background-image: url(/images/video/wwtw.jpg);
+	}
+	.veils {
+		background-image: url(/images/video/veilsofsleep.jpg);
+	}
+
+	#contacts {
+		height: 130px;
+
+	}
+		#phone {
+			background-color: #eeeeee;
+			margin-left: 5;
+			left: 0;
+		}
+		#mail {
+			background-color: #eeeeee;
+			margin-left: 5;
+			left: 0;
+		}
+		#git {
+			background-color: #eeeeee;
+			margin-left: 5;
+			left: 0;
+		}
+
+	#copyright {
+			margin: 0;
+			margin-left: 5px;
+			left: 0;
+			color: #000000;
+		}
+}
+
+/*IPHONE PORTRAIT*/
+@media all and (max-width:600) and (min-width: 401) {
+
+	#git {
+		display: none;
+	}
+
+	#buildA {
+		width: 100px;
+		font-size: 12px;
+	}
+
+	#buildB {
+		width: 100px;
+		font-size: 12px;
+	}
+
+	#buildC {
+		width: 100px;
+		font-size: 12px;
+	}
+
+
+	body {
+	}
+
+	nav {
+		height: 100px;
+		width: 100%;
+	}
+	nav a, nav a:hover {
+		padding-bottom: 10px;
+		padding-left: 55px;
+		padding-right: 55px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	#about {
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	#info {
+		margin-left: auto;
+		margin: 0 auto;
+	}
+	#nav {
+		width: 100%;
+	}
+
+	#video {
+		border: 2px solid black;
+		width: 300px;
+		height: 169px;
+		margin: 0 auto;
+	}
+
+	iframe {
+		width: 300px;
+		height: 169px;
+	}
+
+	header {
+		position: relative;
+		padding-bottom: 50px;
+	}
+
+	.container {
+		width: 480px;
+		margin: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	#photo, #photo:hover {
+		position: fixed;
+		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+		top: 10;
+		left: 10;
+		width: 100px;
+		height: 100px;
+		background-size: 100px;
+		display: none;
+	}
+
+
+	#title {
+		margin-left: auto;
+		width: 480px;
+	}
+	#gamesTitle {
+		margin-left: auto;
+		width: 480px;
+	}
+	#videosTitle {
+		margin-left: auto;
+		width: 480px;
+	}
+	#appsTitle {
+		margin-left: auto;
+		width: 480px;
+	}
+	#photosTitle {
+		margin-left: auto;
+		width: 480px;
+	}
+	#sketchTitle {
+		margin-left: auto;
+		width: 480px;
+	}
+	#charcoalTitle {
+		margin-left: auto;
+		width: 500px;
+	}
+	#paintTitle {
+		margin-left: auto;
+		width: 480px;
+	}
+
+
+
+	.breach {
+		background-image: url(/images/games/breach.jpg);
+	}
+	.meteoros {
+		background-image: url(/images/games/meteoros.jpg);
+	}
+	.doodle {
+		background-image: url(/images/games/doodleland.jpg);
+	}
+	.babychief {
+		background-image: url(/images/games/babychief.jpg);
+	}
+	.buildnstein {
+		background-image: url(/images/games/buildnstein.jpg);
+	}
+	.kin {
+		background-image: url(/images/games/kin.jpg);
+	}
+	.romanroad {
+		background-image: url(/images/games/romanroad.jpg);
+	}
+
+
+
+	.revolution {
+		background-image: url(/images/video/revolution.jpg);
+	}
+	.paper {
+		background-image: url(/images/video/paperdilemma.jpg);
+	}
+	.acoustic {
+		background-image: url(/images/video/acoustic.jpg);
+	}
+	.who {
+		background-image: url(/images/video/wwtw.jpg);
+	}
+	.veils {
+		background-image: url(/images/video/veilsofsleep.jpg);
+	}
+
+
+
+
+	.babychief#l {
+		width: 120px;
+		border-radius: 5px;
+		background-size: 200%;
+	}
+	.doodle#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+		background-position: bottom;
+	}
+	.breach#l {
+		width: 120px;
+		border-radius: 5px;
+		background-size: 200%;
+	}
+	.glitch#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+	.allcity#l {
+		width: 120px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+
+
+
+
+	.revolution#l {
+		width: 410px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+		background-position: center;
+	}
+	.acoustic#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+
+	.paper#l {
+		width: 120px;
+		border-radius: 5px;
+		background-size: 150%;
+		background-position: center 20%;
+	}
+
+
+
+
+	.sak#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+
+	.blackdeath#s {
+		width: 265px;
+		border-radius: 5px;
+		background-size: 200%;
+	}
+
+	.aggag#l {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+		background-position: center;
+	}
+	.stack#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+		background-position: 20%;
+	}
+
+	.photo1#l {
+		background-position: left;
+	}
+	.photo1#l, .photo2#l, .photo3#s, .photo4#l, .photo5#s,
+	.photo6#l, .photo7#l, .photo8#s, .photo9#l, .photo10#s,
+	.photo11#l, .photo12#l, .photo13#s, .photo14#l, .photo15#s{
+		margin-bottom: 0px;
+		width: 120px;
+		padding-top: 70px;
+		border-radius: 5px;
+		background-size: 130%;
+		background-position: left;
+	}
+
+	.favorites#l {
+		margin-bottom: 0px;
+		width: 120px;
+		border-radius: 5px;
+		background-size: 125%;
+		background-position: left;
+	}
+
+	#contacts {
+		margin:0;
+
+		bottom: auto;
+		top: 0;
+		left: 0;
+
+		width: 100%;
+		height: 50px;
+	}
+
+		#phone {
+			margin: 10px;
+			position: fixed;
+			width: 50px;
+			height: 50px;
+			left: 0;
+			border-radius: 50%;
+			background: none;
+		}
+
+		#phoneIcon {
+			width: 50px;
+			height: 50px;
+		}
+
+		#phone h1 {
+			display: none;
+		}
+
+		#mail {
+			margin: 10px;
+			position: fixed;
+			width: 50px;
+			height: 50px;
+			right: 0;
+			border-radius: 50%;
+			background: none;
+		}
+
+		#mailIcon {
+			width: 50px;
+			height: 50px;
+		}
+
+		#mail h1 {
+			display: none;
+		}
+
+		#copyright {
+			margin: 0;
+			margin-left: 5px;
+			left: 0;
+			color: #000000;
+		}
+
+}
+
+
+
+@media all and (max-width:510) {
+	
+	nav {
+		height: 100px;
+		width: 100%;
+	}
+	nav a, nav a:hover {
+		padding-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	#about {
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	#info {
+		margin-left: auto;
+		margin: 0 auto;
+	}
+
+	#nav {
+		width: 100%;
+	}
+
+	header {
+		position: relative;
+		padding-bottom: 50px;
+	}
+
+	.container {
+		width: 300px;
+		margin: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	#photo, #photo:hover {
+		position: fixed;
+		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+		top: 10;
+		left: 10;
+		width: 100px;
+		height: 100px;
+		background-size: 100px;
+		display: none;
+	}
+
+
+	#title {
+		margin-left: auto;
+		width: 310px;
+		background-size: 80%;
+	}
+	#gamesTitle {
+		margin-left: auto;
+		width: 310px;
+		background-size: 80%;
+	}
+	#videosTitle {
+		margin-left: auto;
+		width: 310px;
+		background-size: 80%;
+	}
+	#appsTitle {
+		margin-left: auto;
+		width: 310px;
+		background-size: 80%;
+	}
+	#photosTitle {
+		margin-left: auto;
+		width: 310px;
+		background-size: 80%;
+	}
+	#sketchTitle {
+		margin-left: auto;
+		width: 310px;
+		background-size: 80%;
+	}
+	#charcoalTitle {
+		margin-left: auto;
+		width: 310px;
+		background-size: 100%;
+	}
+	#paintTitle {
+		margin-left: auto;
+		width: 310px;
+		background-size: 60%;
+	}
+
+
+
+	.breach {
+		background-image: url(/images/games/breach.jpg);
+	}
+	.meteoros {
+		background-image: url(/images/games/meteoros.jpg);
+	}
+	.doodle {
+		background-image: url(/images/games/doodleland.jpg);
+	}
+	.babychief {
+		background-image: url(/images/games/babychief.jpg);
+	}
+	.buildnstein {
+		background-image: url(/images/games/buildnstein.jpg);
+	}
+	.kin {
+		background-image: url(/images/games/kin.jpg);
+	}
+	.romanroad {
+		background-image: url(/images/games/romanroad.jpg);
+	}
+
+
+
+	.revolution {
+		background-image: url(/images/video/revolution.jpg);
+	}
+	.paper {
+		background-image: url(/images/video/paperdilemma.jpg);
+	}
+	.acoustic {
+		background-image: url(/images/video/acoustic.jpg);
+	}
+	.who {
+		background-image: url(/images/video/wwtw.jpg);
+	}
+	.veils {
+		background-image: url(/images/video/veilsofsleep.jpg);
+	}
+
+
+
+
+	.babychief#l {
+		width: 265px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+	.doodle#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+		background-position: bottom;
+	}
+	.buildnstein#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+	.breach#l {
+		width: 265px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+	.glitch#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+	.allcity#l {
+		width: 265px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+	.textura#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+
+	#l {
+		margin-bottom: 5px;
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+	}
+
+	#s {
+		margin-bottom: 5px;
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+	}
+
+
+
+
+
+	.revolution#l {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+		background-position: center;
+	}
+	.acoustic#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+
+	.paper#l {
+		width: 265px;
+		border-radius: 5px;
+		background-size: 150%;
+		background-position: center 20%;
+	}
+
+	.veils#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+
+
+
+
+	.sak#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
+
+	.blackdeath#l {
+		width: 265px;
+		border-radius: 5px;
+		background-size: 200%;
+	}
+
+	.aggag#l {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+		background-position: center;
+	}
+	.stack#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+		background-position: 20%;
+	}
+
+	#digitalTitle {
+		width: 100%;
+		height: 80px;
+		position: fixed;
+		bottom: 0px;
+		right: auto;
+		left: auto;
+
+		background: url(/images/Titles/digital.svg);
+		background-repeat: no-repeat;
+		background-position: center ;
+	}
+
+	#analogTitle {
+		width: 100%;
+		height: 80px;
+		position: fixed;
+		bottom: 0px;
+		right: auto;
+		left: auto;
+
+		background: url(/images/Titles/analog.svg);
+		background-repeat: no-repeat;
+		background-position: center ;
+	}
+
+	.favorites#l, .favorites#s {
+		margin-bottom: 0px;
+		width: 120px;
+		border-radius: 5px;
+		background-size: 125%;
+		background-position: left;
+	}
+
+	#info h4 {
+		margin: 0 auto;
+		width: 300px;
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+
+	.img {
+		width: 150px;
+		height: 150px;
+	}
+
+	#buildA {
+		width: 100px;
+		font-size: 12px;
+	}
+
+	#buildB {
+		width: 100px;
+		font-size: 12px;
+	}
+
+	#buildC {
+		width: 100px;
+		font-size: 12px;
+	}
+
+		#contacts {
+		margin:0;
+
+		bottom: auto;
+		top: 0;
+		left: 0;
+
+		width: 100%;
+		height: 50px;
+	}
+
+		#phone {
+			margin: 10px;
+			position: fixed;
+			width: 50px;
+			height: 50px;
+			left: 0;
+			border-radius: 50%;
+			background: none;
+		}
+
+		#phoneIcon {
+			width: 50px;
+			height: 50px;
+		}
+
+		#phone h1 {
+			display: none;
+		}
+
+		#mail {
+			margin: 10px;
+			position: fixed;
+			width: 50px;
+			height: 50px;
+			right: 0;
+			border-radius: 50%;
+			background: none;
+		}
+
+		#mailIcon {
+			width: 50px;
+			height: 50px;
+		}
+
+		#video {
+			border: 2px solid black;
+			width: 300px;
+			height: 169px;
+			margin: 0 auto;
+		}
+
+		iframe {
+			width: 300px;
+			height: 169px;
+		}
+
+		#mail h1 {
+			display: none;
+		}
+
+		#copyright {
+			margin: 0;
+			margin-left: 5px;
+			left: 0;
+			color: #000000;
+		}
+
+}
