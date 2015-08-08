@@ -432,18 +432,25 @@
 		background-size: 100%;
 	}
 
-	.blackdeath#l {
-		width: 120px;
+	.blackdeath#s {
+		width: 265px;
 		border-radius: 5px;
 		background-size: 200%;
 	}
 
 	.aggag#l {
-		width: 410px;
+		width: 265px;
 		padding-top: 50px;
 		border-radius: 5px;
 		background-size: 100%;
 		background-position: center;
+	}
+	.stack#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+		background-position: 20%;
 	}
 
 	.photo1#l {
@@ -529,10 +536,6 @@
 
 
 @media all and (max-width:510) {
-
-	#git {
-		display: none;
-	}
 	
 	nav {
 		height: 100px;
