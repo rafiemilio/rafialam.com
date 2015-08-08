@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*IPAD LANDSCAPE*/
-@media all and (max-width: 1024) and (min-width: 951) {
+@media screen and (max-width: 1024px) and (min-width: 951px) {
 	
 	.breach {
 		background-image: url(/images/games/breach.jpg);
@@ -46,7 +46,7 @@
 }
 
 /*IPAD PORTRAIT/IPHONE LANDSCAPE*/
-@media all and (max-width: 950) and (min-width: 601) {
+@media screen and (max-width: 950px) and (min-width: 601px) {
 	
 
 	body {
@@ -201,7 +201,7 @@
 }
 
 /*IPHONE PORTRAIT*/
-@media all and (max-width:600) and (min-width: 401) {
+@media screen and (max-width:600px) and (min-width: 401px) {
 
 	#git {
 		display: none;
@@ -535,7 +535,22 @@
 
 
 
-@media all and (max-width:510) {
+@media screen and (max-width:510px) {
+
+	#breachGame img {
+
+		width: 320px;
+		height: 240px;
+
+	}
+
+	#meteorosGame {
+		display: none;
+	}
+
+	#git {
+		display: none;
+	}
 	
 	nav {
 		height: 100px;

@@ -18,3 +18,4 @@ $document.scroll(function() {
     $element.removeClass(className);
   }
 });
+
