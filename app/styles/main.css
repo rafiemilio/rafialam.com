@@ -51,7 +51,9 @@ a {
 	height: 70px;
 	margin: auto;
 
-	background: url(/images/rafi.svg);
+	background: url(/images/rafi.png);
+    background: url(/images/rafi.svg),
+    linear-gradient(transparent, transparent);
 	background-size: 25%;
 	background-repeat: no-repeat;
 	background-position: center;	
@@ -375,7 +377,9 @@ nav a:hover {
 		width: 30px;
 		height: 30px;
 		padding: 0;
-		background: url(/images/git.svg);
+		background: url(/images/git.png);
+    background: url(/images/git.svg),
+    linear-gradient(transparent, transparent);
 		background-size: 100%;
 		border-radius: 50%;
 	}
@@ -416,7 +420,9 @@ nav a:hover {
 		width: 30px;
 		height: 30px;
 		padding: 0;
-		background: url(/images/phone.svg);
+		background: url(/images/phone.png);
+    background: url(/images/phone.svg),
+    linear-gradient(transparent, transparent);
 		background-size: 100%;
 		border-radius: 50%;
 	}
@@ -457,7 +463,9 @@ nav a:hover {
 		width: 30px;
 		height: 30px;
 		padding: 0;
-		background: url(/images/mail.svg);
+		background: url(/images/mail.png);
+    background: url(/images/mail.svg),
+    linear-gradient(transparent, transparent);
 		background-size: 100%;
 		border-radius: 50%;
 	}
@@ -484,8 +492,9 @@ nav a:hover {
 	position: fixed;
 	bottom: 0px;
 	right: 0px;
-
-	background: url(/images/digital.svg);
+	background: url(/images/digital.png);
+    background: url(/images/digital.svg),
+    linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: bottom right;
 }
@@ -497,7 +506,9 @@ nav a:hover {
 	bottom: 0px;
 	right: 0px;
 
-	background: url(/images/analog.svg);
+	background: url(/images/analog.png);
+    background: url(/images/analog.svg),
+    linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: bottom right;
 }
@@ -510,7 +521,9 @@ nav a:hover {
 	height: 120px;
 	margin: auto;
 
-	background: url(/images/rafi.svg);
+	background: url(/images/rafi.png);
+    background: url(/images/rafi.svg),
+    linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;	
 }
@@ -521,7 +534,9 @@ nav a:hover {
 	margin: auto;
 	margin-left: 350px;
 
-	background: url(/images/games.svg);
+	background: url(/images/games.png);
+    background: url(/images/games.svg),
+    linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -532,7 +547,9 @@ nav a:hover {
 	margin: auto;
 	margin-left: 350px;
 
-	background: url(/images/videos.svg);
+	background: url(/images/videos.png);
+    background: url(/images/videos.svg),
+    linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -543,7 +560,9 @@ nav a:hover {
 	margin: auto;
 	margin-left: 350px;
 
-	background: url(/images/apps.svg);
+	background: url(/images/apps.png);
+    background: url(/images/apps.svg),
+    linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -554,7 +573,9 @@ nav a:hover {
 	margin: auto;
 	margin-left: 350px;
 
-	background: url(/images/photos.svg);
+	background: url(/images/photos.png);
+    background: url(/images/photos.svg),
+    linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -565,7 +586,9 @@ nav a:hover {
 	margin: auto;
 	margin-left: 350px;
 
-	background: url(/images/sketch.svg);
+	background: url(/images/sketch.png);
+    background: url(/images/sketch.svg),
+    linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -576,7 +599,9 @@ nav a:hover {
 	margin: auto;
 	margin-left: 350px;
 
-	background: url(/images/charcoal.svg);
+	background: url(/images/charcoal.png);
+    background: url(/images/charcoal.svg),
+    linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -587,7 +612,9 @@ nav a:hover {
 	margin: auto;
 	margin-left: 350px;
 
-	background: url(/images/paint.svg);
+	background: url(/images/paint.png);
+    background: url(/images/paint.svg),
+    linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
 }
