@@ -1,6 +1,6 @@
 body {
 	background-color: #ffffff;
-	font-family: Garamond, serif;
+	font-family: Avenir, sans-serif;
 	color: #6c6c6c;
 	z-index: 1;
 	margin: 0;
@@ -51,8 +51,8 @@ a {
 	height: 70px;
 	margin: auto;
 
-	background: url(/images/rafi.png);
-    background: url(/images/rafi.svg),
+	background: url(../images/rafi.png);
+    background: url(../images/rafi.svg),
     linear-gradient(transparent, transparent);
 	background-size: 25%;
 	background-repeat: no-repeat;
@@ -71,15 +71,18 @@ a {
 	margin-left: 350px;
 	padding-top: 30px;
 	max-width: 500px;
-	text-align: center;
+	text-align: left;
+	font-size: 14px;
+	line-height: 22px;
 }
 
 #photo {
 	transition: all, .5s;
-	margin: 20 auto;
+	margin: 0 auto;
+	margin-bottom: 30px;
 	height: 100px;
 	width: 100px;
-	background-image: url(/images/picture.jpg);
+	background-image: url(../images/picture.jpg);
 	background-size: 100px;
 	border-radius: 50%;
 	border: 2px solid black;
@@ -101,13 +104,27 @@ a {
 	width: 500px;
 	height: 280px;
 }
+
+#videoMid {
+	border: 2px solid black;
+	width: 500px;
+	height: 312px;
+}
+#videoTall {
+	border: 2px solid black;
+	width: 500px;
+	height: 374px;
+}
+
 #process {
 	margin-top: 60px;
 	margin-bottom: 100px;
 }
 
 
-.img {display: inline-block;
+.img {
+	transition: all 1s;
+	display: inline-block;
 	width: 200px;
 	height: 200px;
 	overflow: hidden;
@@ -118,6 +135,10 @@ a {
 	height: 100%;
 }
 
+.img:hover {
+	width: 400px;
+	height: 400px;
+}
 
 
 #buildA {
@@ -232,6 +253,13 @@ nav a:hover {
 #xl {
 	width: 555px;
 	border-radius: 5px;
+}
+
+#xxl {
+	width: 555px;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 0px;
 }
 
 #statement {
@@ -357,7 +385,7 @@ nav a:hover {
 
 #git {
 	transition: all, .3s;
-	display: block;
+	display: none;
 	margin: auto;
 	margin-top: 10px;
 	margin-bottom: 0;
@@ -377,8 +405,8 @@ nav a:hover {
 		width: 30px;
 		height: 30px;
 		padding: 0;
-		background: url(/images/git.png);
-    background: url(/images/git.svg),
+		background: url(../images/git.png);
+    background: url(../images/git.svg),
     linear-gradient(transparent, transparent);
 		background-size: 100%;
 		border-radius: 50%;
@@ -420,8 +448,8 @@ nav a:hover {
 		width: 30px;
 		height: 30px;
 		padding: 0;
-		background: url(/images/phone.png);
-    background: url(/images/phone.svg),
+		background: url(../images/phone.png);
+    background: url(../images/phone.svg),
     linear-gradient(transparent, transparent);
 		background-size: 100%;
 		border-radius: 50%;
@@ -463,8 +491,8 @@ nav a:hover {
 		width: 30px;
 		height: 30px;
 		padding: 0;
-		background: url(/images/mail.png);
-    background: url(/images/mail.svg),
+		background: url(../images/mail.png);
+    background: url(../images/mail.svg),
     linear-gradient(transparent, transparent);
 		background-size: 100%;
 		border-radius: 50%;
@@ -492,8 +520,8 @@ nav a:hover {
 	position: fixed;
 	bottom: 0px;
 	right: 0px;
-	background: url(/images/digital.png);
-    background: url(/images/digital.svg),
+	background: url(../images/digital.png);
+    background: url(../images/digital.svg),
     linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: bottom right;
@@ -506,8 +534,8 @@ nav a:hover {
 	bottom: 0px;
 	right: 0px;
 
-	background: url(/images/analog.png);
-    background: url(/images/analog.svg),
+	background: url(../images/analog.png);
+    background: url(../images/analog.svg),
     linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: bottom right;
@@ -521,8 +549,8 @@ nav a:hover {
 	height: 120px;
 	margin: auto;
 
-	background: url(/images/rafi.png);
-    background: url(/images/rafi.svg),
+	background: url(../images/rafi.png);
+    background: url(../images/rafi.svg),
     linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;	
@@ -533,9 +561,9 @@ nav a:hover {
 	height: 100px;
 	margin: auto;
 	margin-left: 350px;
-
-	background: url(/images/games.png);
-    background: url(/images/games.svg),
+	margin-bottom: 15px;
+	background: url(../images/games.png);
+    background: url(../images/games.svg),
     linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -546,9 +574,9 @@ nav a:hover {
 	height: 100px;
 	margin: auto;
 	margin-left: 350px;
-
-	background: url(/images/videos.png);
-    background: url(/images/videos.svg),
+	margin-bottom: 15px;
+	background: url(../images/videos.png);
+    background: url(../images/videos.svg),
     linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -560,8 +588,8 @@ nav a:hover {
 	margin: auto;
 	margin-left: 350px;
 
-	background: url(/images/apps.png);
-    background: url(/images/apps.svg),
+	background: url(../images/apps.png);
+    background: url(../images/apps.svg),
     linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -573,8 +601,8 @@ nav a:hover {
 	margin: auto;
 	margin-left: 350px;
 
-	background: url(/images/photos.png);
-    background: url(/images/photos.svg),
+	background: url(../images/photos.png);
+    background: url(../images/photos.svg),
     linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -586,8 +614,8 @@ nav a:hover {
 	margin: auto;
 	margin-left: 350px;
 
-	background: url(/images/sketch.png);
-    background: url(/images/sketch.svg),
+	background: url(../images/sketch.png);
+    background: url(../images/sketch.svg),
     linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -599,8 +627,8 @@ nav a:hover {
 	margin: auto;
 	margin-left: 350px;
 
-	background: url(/images/charcoal.png);
-    background: url(/images/charcoal.svg),
+	background: url(../images/charcoal.png);
+    background: url(../images/charcoal.svg),
     linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -612,8 +640,8 @@ nav a:hover {
 	margin: auto;
 	margin-left: 350px;
 
-	background: url(/images/paint.png);
-    background: url(/images/paint.svg),
+	background: url(../images/paint.png);
+    background: url(../images/paint.svg),
     linear-gradient(transparent, transparent);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -680,12 +708,12 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/games/breach.jpg);
+	background-image: url(../images/games/breach.gif);
 	background-position: center;
 }
 
 .breach:hover {
-	background-image: url(/images/games/breach.gif);
+	background-image: url(../images/games/breach.jpg);
 	color: #ffffff;
 	margin: auto;
 	text-align: center;
@@ -711,12 +739,12 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/games/meteoros.jpg);
+	background-image: url(../images/games/meteoros.gif);
 	background-position: bottom left;
 }
 
 .meteoros:hover {
-	background-image: url(/images/games/meteoros.gif);
+	background-image: url(../images/games/meteoros.jpg);
 	color: #ffffff;
 	margin: auto;
 	text-align: center;
@@ -742,13 +770,13 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/games/doodleland.jpg);
+	background-image: url(../images/games/doodleland.gif);
 	background-size: 110%;
 	background-position: bottom;
 }
 
 .doodle:hover {
-	background-image: url(/images/games/doodleland.gif);
+	background-image: url(../images/games/doodleland.jpg);
 	color: #000000;
 	margin: auto;
 	text-align: center;
@@ -774,13 +802,13 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/games/babychief.jpg);
+	background-image: url(../images/games/babychief.gif);
 	background-size: 100%;
 	background-position: top;
 }
 
 .babychief:hover {
-	background-image: url(/images/games/babychief.gif);
+	background-image: url(../images/games/babychief.jpg);
 	color: #000000;
 	margin: auto;
 	text-align: center;
@@ -806,13 +834,13 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/games/kin.jpg);
+	background-image: url(../images/games/kin.gif);
 	background-size: 100%;
 	background-position: top;
 }
 
 .kin:hover {
-	background-image: url(/images/games/kin.gif);
+	background-image: url(../images/games/kin.jpg);
 	color: #ffffff;
 	margin: auto;
 	text-align: center;
@@ -838,13 +866,13 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/games/romanroad.jpg);
+	background-image: url(../images/games/romanroad.gif);
 	background-size: 105%;
 	background-position: top;
 }
 
 .romanroad:hover {
-	background-image: url(/images/games/romanroad.gif);
+	background-image: url(../images/games/romanroad.jpg);
 	color: #ffffff;
 	margin: auto;
 	text-align: center;
@@ -870,13 +898,13 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/games/buildnstein.jpg);
+	background-image: url(../images/games/buildnstein.gif);
 	background-size: 150%;
 	background-position: center;
 }
 
 .buildnstein:hover {
-	background-image: url(/images/games/buildnstein.gif);
+	background-image: url(../images/games/buildnstein.jpg);
 	color: #ffffff;
 	margin: auto;
 	text-align: center;
@@ -903,14 +931,14 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/games/supersonic.jpg);
+	background-image: url(../images/games/supersonic.gif);
 	background-size: 150%;
 	background-position: center;
 }
 
 
 .textura:hover {
-	background-image: url(/images/games/supersonic.gif);
+	background-image: url(../images/games/supersonic.jpg);
 	color: #ffffff;
 	margin: auto;
 	text-align: center;
@@ -937,14 +965,14 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/games/allcity.jpg);
-	background-size: 100%;
+	background-image: url(../images/games/allcity.gif);
+	background-size: 103%;
 	background-position: center;
 
 }
 
 .allcity:hover {
-	background-image: url(/images/games/allcity.gif);
+	background-image: url(../images/games/allcity.jpg);
 	color: #ffffff;
 	margin: auto;
 	text-align: center;
@@ -971,13 +999,306 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/games/glitch.jpg);
+	background-image: url(../images/games/glitch.gif);
 	background-size: 150%;
 	background-position: center;
 }
 
 .glitch:hover {
-	background-image: url(/images/games/glitch.gif);
+	background-image: url(../images/games/glitch.jpg);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.nala {
+	width: 120px;
+	background-color: #a9a9a9;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(../images/games/nala.gif);
+	background-size: 103%;
+	background-position: center;
+
+}
+
+.nala:hover {
+	background-image: url(../images/games/nala.jpg);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.theherd {
+	width: 120px;
+	background-color: #a9a9a9;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 110px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(../images/games/theherd.gif);
+	background-size: 103%;
+	background-position: center;
+
+}
+
+.theherd:hover {
+	background-image: url(../images/games/theherd.jpg);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+.remix {
+	width: 120px;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(../images/games/remix.gif);
+	background-size: 200%;
+	background-position: center;
+}
+
+.remix:hover {
+	background-image: url(../images/games/remix.jpg);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.thingsforgotten {
+	width: 120px;
+	background-color: #a9a9a9;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(../images/games/thethingsforgotten.gif);
+	background-size: 110%;
+	background-position: top center;
+
+}
+
+.thingsforgotten:hover {
+	background-image: url(../images/games/thethingsforgotten.jpg);
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+.boardgames {
+	width: 120px;
+	background-color: #000000;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(../images/games/boardgames.jpg);
+	background-size: 100%;
+	background-position: bottom center;
+
+}
+
+.boardgames:hover {
+	background: #a9a9a9;
+	//background-image: url(../images/games/boardgames.jpg);
+	background-size: 100%;
+	background-position: bottom center;
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+.muifwego {
+	transition: all .5s;
+	width: 120px;
+	background-color: #000000;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	margin-top: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(../images/games/muifwego.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.muifwego:hover {
+	background-image: url(../images/games/muifwego.jpg);
+	background-size: 125%;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+	margin-top: 40px;
+}
+
+.playtech {
+	transition: all .5s;
+	width: 120px;
+	background-color: #000000;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(../images/process/theherd/playtech.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+
+}
+
+.playtech:hover {
+	background-image: url(../images/process/theherd/playtech.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.newline {
+	transition: all .5s;
+	width: 120px;
+	background-color: #000000;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+	position: relative;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(../images/process/theherd/newline.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.newline:hover {
+	background-image: url(../images/process/theherd/newline.jpg);
+	background-size: 125%;
+	background-repeat: no-repeat;
+	background-position: center;
 	color: #ffffff;
 	margin: auto;
 	text-align: center;
@@ -1010,13 +1331,13 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/video/revolution.jpg);
+	background-image: url(../images/video/revolution.gif);
 	background-size: 100%;
 	background-position: center;
 }
 
 .revolution:hover {
-	background-image: url(/images/video/revolution.gif);
+	background-image: url(../images/video/revolution.jpg);
 	color: #000000;
 	margin: auto;
 	text-align: center;
@@ -1042,13 +1363,13 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/video/paperdilemma.jpg);
+	background-image: url(../images/video/paperdilemma.gif);
 	background-size: 110%;
 	background-position: right;
 }
 
 .paper:hover {
-	background-image: url(/images/video/paperdilemma.gif);
+	background-image: url(../images/video/paperdilemma.jpg);
 	color: #ffffff;
 	margin: auto;
 	text-align: center;
@@ -1074,13 +1395,13 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/video/acoustic.jpg);
+	background-image: url(../images/video/acoustic.gif);
 	background-size: 200%;
 	background-position: 40% bottom; 
 }
 
 .acoustic:hover {
-	background-image: url(/images/video/acoustic.gif);
+	background-image: url(../images/video/acoustic.jpg);
 	color: #000000;
 	margin: auto;
 	text-align: center;
@@ -1106,13 +1427,13 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/video/veilsofsleep.jpg);
+	background-image: url(../images/video/veilsofsleep.gif);
 	background-size: 120%;
 	background-position: center; 
 }
 
 .veils:hover {
-	background-image: url(/images/video/veilsofsleep.gif);
+	background-image: url(../images/video/veilsofsleep.jpg);
 	color: #ffffff;
 	margin: auto;
 	text-align: center;
@@ -1138,13 +1459,13 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/video/wwtw.jpg);
+	background-image: url(../images/video/wwtw.gif);
 	background-size: 120%;
 	background-position: center; 
 }
 
 .who:hover {
-	background-image: url(/images/video/wwtw.gif);
+	background-image: url(../images/video/wwtw.jpg);
 	color: #ffffff;
 	margin: auto;
 	text-align: center;
@@ -1177,13 +1498,13 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/app/stackshare.jpg);
+	background-image: url(../images/app/stackshare.gif);
 	background-size: 100%;
 	background-position: center 50%;
 }
 
 .stack:hover {
-	background-image: url(/images/app/stackshare.gif);
+	background-image: url(../images/app/stackshare.jpg);
 	color: #000000;
 	margin: auto;
 	text-align: center;
@@ -1328,7 +1649,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-1.jpg);
+	background-image: url(../images/photos/felony-1.jpg);
 	background-size: 100%;
 	background-position: center;
 }
@@ -1337,7 +1658,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-1.jpg);
+    ), url(../images/photos/felony-1.jpg);
     background-size: 100%;
 	background-position: center;
 	color: #ffffff;
@@ -1363,7 +1684,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-2.jpg);
+	background-image: url(../images/photos/felony-2.jpg);
 	background-size: 100%;
 	background-position: center;
 }
@@ -1372,7 +1693,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-2.jpg);
+    ), url(../images/photos/felony-2.jpg);
     background-size: 100%;
 	background-position: center;
 	color: #ffffff;
@@ -1398,7 +1719,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-3.jpg);
+	background-image: url(../images/photos/felony-3.jpg);
 	background-size: 130%;
 	background-position: center;
 }
@@ -1407,7 +1728,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-3.jpg);
+    ), url(../images/photos/felony-3.jpg);
     background-size: 130%;
 	background-position: center;
 	color: #ffffff;
@@ -1433,7 +1754,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-4.jpg);
+	background-image: url(../images/photos/felony-4.jpg);
 	background-size: 100%;
 	background-position: center;
 }
@@ -1442,7 +1763,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-4.jpg);
+    ), url(../images/photos/felony-4.jpg);
     background-size: 100%;
 	background-position: center;
 	color: #ffffff;
@@ -1468,7 +1789,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-5.jpg);
+	background-image: url(../images/photos/felony-5.jpg);
 	background-size: 130%;
 	background-position: center;
 }
@@ -1477,7 +1798,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-5.jpg);
+    ), url(../images/photos/felony-5.jpg);
     background-size: 130%;
 	background-position: center;
 	color: #ffffff;
@@ -1504,7 +1825,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-6.jpg);
+	background-image: url(../images/photos/felony-6.jpg);
 	background-size: 100%;
 	background-position: center;
 }
@@ -1513,7 +1834,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-6.jpg);
+    ), url(../images/photos/felony-6.jpg);
     background-size: 100%;
 	background-position: center;
 	color: #ffffff;
@@ -1539,7 +1860,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-7.jpg);
+	background-image: url(../images/photos/felony-7.jpg);
 	background-size: 100%;
 	background-position: center;
 }
@@ -1548,7 +1869,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-7.jpg);
+    ), url(../images/photos/felony-7.jpg);
     background-size: 100%;
 	background-position: center;
 	color: #ffffff;
@@ -1574,7 +1895,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-8.jpg);
+	background-image: url(../images/photos/felony-8.jpg);
 	background-size: 130%;
 	background-position: center;
 }
@@ -1583,7 +1904,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-8.jpg);
+    ), url(../images/photos/felony-8.jpg);
     background-size: 130%;
 	background-position: center;
 	color: #ffffff;
@@ -1609,7 +1930,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-9.jpg);
+	background-image: url(../images/photos/felony-9.jpg);
 	background-size: 100%;
 	background-position: center;
 }
@@ -1618,7 +1939,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-9.jpg);
+    ), url(../images/photos/felony-9.jpg);
     background-size: 100%;
 	background-position: center;
 	color: #ffffff;
@@ -1644,7 +1965,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-10.jpg);
+	background-image: url(../images/photos/felony-10.jpg);
 	background-size: 130%;
 	background-position: center;
 }
@@ -1653,7 +1974,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-10.jpg);
+    ), url(../images/photos/felony-10.jpg);
     background-size: 130%;
 	background-position: center;
 	color: #ffffff;
@@ -1679,7 +2000,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-11.jpg);
+	background-image: url(../images/photos/felony-11.jpg);
 	background-size: 100%;
 	background-position: center;
 }
@@ -1688,7 +2009,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-11.jpg);
+    ), url(../images/photos/felony-11.jpg);
     background-size: 100%;
 	background-position: center;
 	color: #ffffff;
@@ -1714,7 +2035,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-12.jpg);
+	background-image: url(../images/photos/felony-12.jpg);
 	background-size: 100%;
 	background-position: center;
 }
@@ -1723,7 +2044,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-12.jpg);
+    ), url(../images/photos/felony-12.jpg);
     background-size: 100%;
 	background-position: center;
 	color: #ffffff;
@@ -1749,7 +2070,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-13.jpg);
+	background-image: url(../images/photos/felony-13.jpg);
 	background-size: 130%;
 	background-position: center;
 }
@@ -1758,7 +2079,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-13.jpg);
+    ), url(../images/photos/felony-13.jpg);
     background-size: 130%;
 	background-position: center;
 	color: #ffffff;
@@ -1784,7 +2105,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-14.jpg);
+	background-image: url(../images/photos/felony-14.jpg);
 	background-size: 100%;
 	background-position: center;
 }
@@ -1793,7 +2114,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-14.jpg);
+    ), url(../images/photos/felony-14.jpg);
     background-size: 100%;
 	background-position: center;
 	color: #ffffff;
@@ -1819,7 +2140,7 @@ header {
 	clear: both;
 	font-size: 15px;
 
-	background-image: url(/images/photos/felony-15.jpg);
+	background-image: url(../images/photos/felony-15.jpg);
 	background-size: 130%;
 	background-position: center;
 }
@@ -1828,7 +2149,7 @@ header {
 	background:  linear-gradient(
       rgba(0,0,0, 0.45), 
       rgba(0,0,0, 0.45)
-    ), url(/images/photos/felony-15.jpg);
+    ), url(../images/photos/felony-15.jpg);
     background-size: 130%;
 	background-position: center;
 	color: #ffffff;

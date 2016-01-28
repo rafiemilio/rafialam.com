@@ -4,43 +4,43 @@
 @media screen and (max-width: 1024px) and (min-width: 951px) {
 	
 	.breach {
-		background-image: url(/images/games/breach.jpg);
+		background-image: url(/images/games/breach.gif);
 	}
 	.meteoros {
-		background-image: url(/images/games/meteoros.jpg);
+		background-image: url(/images/games/meteoros.gif);
 	}
 	.doodle {
-		background-image: url(/images/games/doodleland.jpg);
+		background-image: url(/images/games/doodleland.gif);
 	}
 	.babychief {
-		background-image: url(/images/games/babychief.jpg);
+		background-image: url(/images/games/babychief.gif);
 	}
 	.buildnstein {
-		background-image: url(/images/games/buildnstein.jpg);
+		background-image: url(/images/games/buildnstein.gif);
 	}
 	.kin {
-		background-image: url(/images/games/kin.jpg);
+		background-image: url(/images/games/kin.gif);
 	}
 	.romanroad {
-		background-image: url(/images/games/romanroad.jpg);
+		background-image: url(/images/games/romanroad.gif);
 	}
 
 
 
 	.revolution {
-		background-image: url(/images/video/revolution.jpg);
+		background-image: url(/images/video/revolution.gif);
 	}
 	.paper {
-		background-image: url(/images/video/paperdilemma.jpg);
+		background-image: url(/images/video/paperdilemma.gif);
 	}
 	.acoustic {
-		background-image: url(/images/video/acoustic.jpg);
+		background-image: url(/images/video/acoustic.gif);
 	}
 	.who {
-		background-image: url(/images/video/wwtw.jpg);
+		background-image: url(/images/video/wwtw.gif);
 	}
 	.veils {
-		background-image: url(/images/video/veilsofsleep.jpg);
+		background-image: url(/images/video/veilsofsleep.gif);
 	}
 
 }
@@ -133,43 +133,43 @@
 
 
 	.breach {
-		background-image: url(/images/games/breach.jpg);
+		background-image: url(/images/games/breach.gif);
 	}
 	.meteoros {
-		background-image: url(/images/games/meteoros.jpg);
+		background-image: url(/images/games/meteoros.gif);
 	}
 	.doodle {
-		background-image: url(/images/games/doodleland.jpg);
+		background-image: url(/images/games/doodleland.gif);
 	}
 	.babychief {
-		background-image: url(/images/games/babychief.jpg);
+		background-image: url(/images/games/babychief.gif);
 	}
 	.buildnstein {
-		background-image: url(/images/games/buildnstein.jpg);
+		background-image: url(/images/games/buildnstein.gif);
 	}
 	.kin {
-		background-image: url(/images/games/kin.jpg);
+		background-image: url(/images/games/kin.gif);
 	}
 	.romanroad {
-		background-image: url(/images/games/romanroad.jpg);
+		background-image: url(/images/games/romanroad.gif);
 	}
 
 
 
 	.revolution {
-		background-image: url(/images/video/revolution.jpg);
+		background-image: url(/images/video/revolution.gif);
 	}
 	.paper {
-		background-image: url(/images/video/paperdilemma.jpg);
+		background-image: url(/images/video/paperdilemma.gif);
 	}
 	.acoustic {
-		background-image: url(/images/video/acoustic.jpg);
+		background-image: url(/images/video/acoustic.gif);
 	}
 	.who {
-		background-image: url(/images/video/wwtw.jpg);
+		background-image: url(/images/video/wwtw.gif);
 	}
 	.veils {
-		background-image: url(/images/video/veilsofsleep.jpg);
+		background-image: url(/images/video/veilsofsleep.gif);
 	}
 
 	#contacts {
@@ -259,6 +259,20 @@
 		margin: 0 auto;
 	}
 
+	#videoMid {
+		border: 2px solid black;
+		width: 300px;
+		height: 169px;
+		margin: 0 auto;
+	}
+	#videoTall {
+		border: 2px solid black;
+		width: 300px;
+		height: 169px;
+		margin: 0 auto;
+	}
+
+	
 	iframe {
 		width: 300px;
 		height: 169px;
@@ -327,43 +341,43 @@
 
 
 	.breach {
-		background-image: url(/images/games/breach.jpg);
+		background-image: url(/images/games/breach.gif);
 	}
 	.meteoros {
-		background-image: url(/images/games/meteoros.jpg);
+		background-image: url(/images/games/meteoros.gif);
 	}
 	.doodle {
-		background-image: url(/images/games/doodleland.jpg);
+		background-image: url(/images/games/doodleland.gif);
 	}
 	.babychief {
-		background-image: url(/images/games/babychief.jpg);
+		background-image: url(/images/games/babychief.gif);
 	}
 	.buildnstein {
-		background-image: url(/images/games/buildnstein.jpg);
+		background-image: url(/images/games/buildnstein.gif);
 	}
 	.kin {
-		background-image: url(/images/games/kin.jpg);
+		background-image: url(/images/games/kin.gif);
 	}
 	.romanroad {
-		background-image: url(/images/games/romanroad.jpg);
+		background-image: url(/images/games/romanroad.gif);
 	}
 
 
 
 	.revolution {
-		background-image: url(/images/video/revolution.jpg);
+		background-image: url(/images/video/revolution.gif);
 	}
 	.paper {
-		background-image: url(/images/video/paperdilemma.jpg);
+		background-image: url(/images/video/paperdilemma.gif);
 	}
 	.acoustic {
-		background-image: url(/images/video/acoustic.jpg);
+		background-image: url(/images/video/acoustic.gif);
 	}
 	.who {
-		background-image: url(/images/video/wwtw.jpg);
+		background-image: url(/images/video/wwtw.gif);
 	}
 	.veils {
-		background-image: url(/images/video/veilsofsleep.jpg);
+		background-image: url(/images/video/veilsofsleep.gif);
 	}
 
 
@@ -395,8 +409,29 @@
 	.allcity#l {
 		width: 120px;
 		border-radius: 5px;
-		background-size: 100%;
+		background-size: 200%;
 	}
+	.nala#l {
+		width: 120px;
+		border-radius: 5px;
+		background-size: 200%;
+	}
+	.remix#s {
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		background-size: 100%;
+		background-position: bottom;
+	}
+
+	#xl {
+		width: 410px;
+	}
+	#xxl {
+		width: 410px;
+	}
+
+	
 
 
 
@@ -649,43 +684,43 @@
 
 
 	.breach {
-		background-image: url(/images/games/breach.jpg);
+		background-image: url(/images/games/breach.gif);
 	}
 	.meteoros {
-		background-image: url(/images/games/meteoros.jpg);
+		background-image: url(/images/games/meteoros.gif);
 	}
 	.doodle {
-		background-image: url(/images/games/doodleland.jpg);
+		background-image: url(/images/games/doodleland.gif);
 	}
 	.babychief {
-		background-image: url(/images/games/babychief.jpg);
+		background-image: url(/images/games/babychief.gif);
 	}
 	.buildnstein {
-		background-image: url(/images/games/buildnstein.jpg);
+		background-image: url(/images/games/buildnstein.gif);
 	}
 	.kin {
-		background-image: url(/images/games/kin.jpg);
+		background-image: url(/images/games/kin.gif);
 	}
 	.romanroad {
-		background-image: url(/images/games/romanroad.jpg);
+		background-image: url(/images/games/romanroad.gif);
 	}
 
 
 
 	.revolution {
-		background-image: url(/images/video/revolution.jpg);
+		background-image: url(/images/video/revolution.gif);
 	}
 	.paper {
-		background-image: url(/images/video/paperdilemma.jpg);
+		background-image: url(/images/video/paperdilemma.gif);
 	}
 	.acoustic {
-		background-image: url(/images/video/acoustic.jpg);
+		background-image: url(/images/video/acoustic.gif);
 	}
 	.who {
-		background-image: url(/images/video/wwtw.jpg);
+		background-image: url(/images/video/wwtw.gif);
 	}
 	.veils {
-		background-image: url(/images/video/veilsofsleep.jpg);
+		background-image: url(/images/video/veilsofsleep.gif);
 	}
 
 
@@ -725,6 +760,12 @@
 		border-radius: 5px;
 		background-size: 100%;
 	}
+
+	.nala#l {
+		width: 265px;
+		border-radius: 5px;
+		background-size: 100%;
+	}
 	.textura#s {
 		width: 265px;
 		padding-top: 50px;
@@ -732,6 +773,29 @@
 		background-size: 100%;
 	}
 
+	.theherd {
+		font-size: 15px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+
+	#xxl {
+		margin-bottom: 5px;
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		height: auto;
+	}
+	#xl {
+		margin-bottom: 5px;
+		width: 265px;
+		padding-top: 50px;
+		border-radius: 5px;
+		height: auto;
+	}
 	#l {
 		margin-bottom: 5px;
 		width: 265px;
@@ -777,9 +841,6 @@
 		border-radius: 5px;
 		background-size: 100%;
 	}
-
-
-
 
 	.sak#s {
 		width: 265px;
@@ -916,6 +977,18 @@
 		}
 
 		#video {
+			border: 2px solid black;
+			width: 300px;
+			height: 169px;
+			margin: 0 auto;
+		}
+		#videoMid {
+			border: 2px solid black;
+			width: 300px;
+			height: 169px;
+			margin: 0 auto;
+		}
+		#videoTall {
 			border: 2px solid black;
 			width: 300px;
 			height: 169px;
