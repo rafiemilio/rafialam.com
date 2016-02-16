@@ -70,6 +70,10 @@
 		margin-left: auto;
 		margin: 0 auto;
 	}
+	#bio {
+		margin-left: auto;
+		margin: 0 auto;
+	}
 	#about {
 		padding-left: 170px;
 		padding-right: 170px;
@@ -245,6 +249,10 @@
 	}
 
 	#info {
+		margin-left: auto;
+		margin: 0 auto;
+	}
+	#bio {
 		margin-left: auto;
 		margin: 0 auto;
 	}
@@ -608,7 +616,11 @@
 		margin-left: auto;
 		margin: 0 auto;
 	}
-
+	#bio {
+		margin-left: auto;
+		margin: 0 auto;
+		width: 90%;
+	}
 	#nav {
 		width: 100%;
 	}

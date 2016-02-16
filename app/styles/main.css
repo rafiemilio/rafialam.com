@@ -1067,7 +1067,7 @@ header {
 	font-size: 15px;
 
 	background-image: url(../images/games/theherd.gif);
-	background-size: 103%;
+	background-size: 100%;
 	background-position: center;
 
 }
@@ -1299,6 +1299,44 @@ header {
 	background-size: 125%;
 	background-repeat: no-repeat;
 	background-position: center;
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.playcraft {
+	transition: all .5s;
+	width: 120px;
+	background-color: #000000;
+	border-radius: 5%;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+	position: relative;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Futura, sans-serif;
+	clear: both;
+	font-size: 15px;
+
+	background-image: url(../images/process/theherd/playcraft.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.playcraft:hover {
+	background-image: url(../images/process/theherd/playcraft.png);
+	background-size: 110%;
+	background-repeat: no-repeat;
 	color: #ffffff;
 	margin: auto;
 	text-align: center;
